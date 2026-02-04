@@ -2,8 +2,8 @@
 async function updateVisitorCount() {
     const counterElement = document.getElementById('visitor-count');
     
-    // Replace with your actual API Gateway URL
-    const API_URL = '"https://598vzrf9z9.execute-api.us-east-1.amazonaws.com/prod/visitor"';  // e.g., 'https://abc123.execute-api.us-east-1.amazonaws.com/prod/visitor'
+    // API Gateway URL
+    const API_URL = 'https://598vzrf9z9.execute-api.us-east-1.amazonaws.com/prod/visitor';
     
     try {
         // Call the API
