@@ -3,530 +3,237 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Dean P. Simmer - Cloud Resume Project</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <meta name="description" content="Dean P. Simmer - Engineering Leader & Technology Professional" />
+        <meta name="author" content="Dean P. Simmer" />
+        <title>Dean P. Simmer - Resume</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Dean P. Simmer</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume-highlights">Highlights</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Experience</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#volunteering">Volunteering</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#education">Education</a></li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Dean P. Simmer</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Dean P. Simmer" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Dean P. Simmer</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Experienced Senior Leader - Technologist - Consultant</p>
-                <!-- Visitor Counter -->
-                <div class="mt-4">
-                    <p class="text-white-50 mb-0">
-                        <i class="fas fa-eye"></i> Page Views: <span id="visitor-count" class="badge bg-light text-dark">Loading...</span>
-                    </p>
-                </div>
-            </div>
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="resume-highlights">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Resume Highlights</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/rocketship.png" alt="..." />
-                        </div>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Dean P.
+                        <span class="text-primary">Simmer</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Detroit, Michigan
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/teacher.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/laptop.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/writing.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/church.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/hobbies.png" alt="..." />
-                        </div>
+                    <p class="lead mb-5">Senior leader with extensive experience building and scaling technology teams, cloud infrastructure, and consumer-facing applications. A well of experience in software engineering, AI, and machine learning automation pracices, I am passionate about servant leadership, emerging technologies, and creating secure, reliable systems that deliver exceptional user experiences.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/deanpsimmer/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/mojodean"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Experience Section-->
-            <div class="container">
-        <section class="page-section bg-primary text-white mb-0" id="experience">
-                <!-- Experience Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Experience</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Vice President, Engineering - Client Experiences</h3>
+                            <div class="subheading mb-3">Rocket</div>
+                            <p>Leading digital web mortgage experiences from top of funnel through origination.
+                                <ul>
+                                    <li>Cloud infrastructure and systems: IAC, automation, security, and resiliency at our core.</li>
+                                    <li>Partnerships with Product to deliver world-class responsive web experiences.</li>
+                                    <li>AI/ML initiatives to enhance user experience and unlock engineering speed-to-deliver.</li>
+                                </ul>
+                                </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2024 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Vice President, Engineering - Platform Experience</h3>
+                            <div class="subheading mb-3">Rocket Homes</div>
+                            <p>Led a team of senior leaders in five business-critical areas: Cloud Infrastructure & Security, Marketing Automation Platforms, Backoffice/CRM, Integrations, and Support Services. Organization of 80+ team members throughout the United States and Canada. Developed org chart, hiring plan, and philosophies, then built the teams through hiring and development. Served as management lead for all Internal Audit, Compliance, and Privacy initiatives. Mentored multiple team members to become servant-driven leaders.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022 - 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Team Leader & Director</h3>
+                            <div class="subheading mb-3">Rocket Homes</div>
+                            <p>Led teams responsible for cloud infrastructure, quality engineering, information security, and enterprise service bus. Built mature security practice with SDLC standards, SAST/DAST tools, and incident response. Implemented cloud-first solutions including GitHub Actions, Terraform Cloud, and AWS ECS. Led NOC operations and uptime monitoring for all applications.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2019 - 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Client Happiness Engineer</h3>
+                            <div class="subheading mb-3">Newmind Group</div>
+                            <p>Selected as Newminder of the Year (2017, 2018). Led team of three technical delivery personnel supporting ten client accounts. Served as client CTO managing technology budgets, security monitoring, and compliance implementations including HIPAA. Managed client network infrastructure and Meraki configurations for locations throughout North America.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2016 - 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Faculty Member & IT Manager</h3>
+                            <div class="subheading mb-3">Detroit Cristo Rey High School</div>
+                            <p>Developed and instructed technology courses covering computer science and college readiness. Implemented GSuite for Education and managed Chromebook fleet. Handled helpdesk support for 300 students and 60 staff. Managed network security, IT systems, and coordinated USAC e-Rate funding.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2007 - 2016</span></div>
+                    </div>
                 </div>
-                <!-- Experience Section Content-->
-                <div class="container">
-                    <h2>Work Experience</h2> 
-                    <h3>Vice President, Engineering, Rocket Homes<br /></h3>
-                    <p>
-                        <ul>
-                        <li>Developed org chart, hiring plan, and philosophies for 30+ person Enterprise Services teams throughout the United States and Canada, then built the teams through hiring and development.</li>
-                        <li>Led initiatives to integrate technology teams and technology applications during an acquisition. This initiative brought consumer functionality into our applications and my teams were integral in the back end infrastructure integrations during the acquisition.</li>
-                        <li>Served as management lead for all Internal Audit, Compliance, and Privacy initiatives, including prioritizing and ensuring deliverables by the tech teams to meet timelines for compliance and risk remediation.</li>
-                        <li>Mentored and trained multiple team members to become servant-driven team leaders. Led and mentored through the Aspiring Leaders Program, the Experience IT Detroit Program, and the Leader 2 Leader Program.</li>
-                        <li><strong>Enterprise Infrastructure</strong> – directly led the cloud infrastructure team supporting our AWS stack running client facing applications. Over two years, implemented cloud-first solutions including GitHub Actions, Terraform Cloud, and AWS ECS to retire legacy CI/CD Jenkins server and Elastic Beanstalk implementation.</li>
-                        <li><strong>Information Security</strong> – built a mature security practice managing and securing our web applications with a focus on activity monitoring and incident response, including deploying SDLC standards and policies for the entire organization. Along the way, implemented SAST and DAST tools and testing into the deployment cycle.</li>
-                        <li><strong>Enterprise Service Bus</strong> – hired and built the team responsible for architecting and implementing an enterprise service bus for Rocket Homes built in AWS using Kafka and Mulesoft.</li>
-                        <li><strong>NOC & Uptime</strong> - Led teams responsible for monitoring and triaging any uptime impact on our applications, including third-party contracted and direct hire teams. Led process initiatives to ensure runbooks, response times, and SLAs are met by all engineering teams in the company.</li>
-                        </ul>
-                    </p>
-                    <h3>Director of Engineering, Rocket Homes<br />
-                    </h3>  
-                    <p>
-                        <ul>
-                            <li>Led team that owned cloud infrastructure, quality engineering, and information security for consumer-facing cloud application.</li>
-                            <li>Managed release process and testing cycle for all production and development deployments.</li>
-                            <li>Nascent enterprise infrastructure engineering team built and deployed infrastructure supporting consumer-facing applications and a data loading and platform to ensure consistency and quality in real estate listings on our platform. </li>
-                            <li>Mentored one of my Quality Engineers in leadership and promoted them to lead quality testing and release initiatives.</li>
-                            <li>Information Security team focused on developing and expanding visibility into our applications using Splunk Enterprise and associated logging. Worked with our MSSP partners to add functionality across our AWS stack, including Prisma, to strengthen our security and compliance posture.</li>
-                        </ul>
-                    </p>
-                    <h3>Client Happiness Engineer, Newmind Group<br />2016 - 2019
-                    </h3>
-                    <p><ul>
-                        <li>Selected by colleagues as Newminder of the Year, the highest performer in the company for representing company culture and worth ethic, for both years eligible (2017, 2018).</li>
-                        <li>Led team of three technical delivery personnel to support client base of ten client accounts.</li>
-                        <li>Serve as client Chief Technology Officer and manage technology budget recommendations, security monitoring, and compliance implementations for standards including HIPPA.</li>
-                        <li>Create, implement, and instruct client team technology trainings.</li>
-                        <li>Manage client network infrastructure, Meraki configurations, and health for locations throughout North America</li>
-                        <li>Maintain and support physical and virtual servers as Domain Controllers, File Shares, and Application servers.</li>
-                        <li>Plan and implement technology capital projects including inventory refreshes, network installations, security audits, server migrations, and mobile device management strategies.</li>
-                        <li>Develop industry-standard security policies and practices for all client sites that encompass company, personal, and mobile devices and user behavior</li>
-                        <li>Implemented Asana for Internal Companywide Project Management</li>
-                        <li>Created and implemented internal company templates and supporting documentation for client budgeting</li>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of San Diego - Shiley-Marcos School of Engineering</h3>
+                            <div class="subheading mb-3">Master of Science</div>
+                            <div>Applied Artificial Intelligence</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Expected 2026</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Trinity Episcopal School for Ministry</h3>
+                            <div class="subheading mb-3">Master of Arts in Religion</div>
+                            <div>Church History & Theology</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Hillsdale College</h3>
+                            <div class="subheading mb-3">Bachelor of Arts</div>
+                            <div>History</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Technologies & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                     </ul>
-                    </p> 
-                    <h3>Faculty Member & IT Manager, Detroit Cristo Rey High School<br />2007 - 2016
-                    </h3>
-                    <p><ul>
-                        <li>Developed and instructed daily technology courses for sophomores and juniors covering the history of technology development, computer applications, traditional and modern media, and communications platforms.</li>
-                        <li>Implemented and instructed state and national technology benchmarks and standards for computer science and college readiness curriculums.</li>
-                        <li>Implemented GSuite for Education across the school and managed a fleet of Chromebooks with Google’s MDM for student usage.</li>
-                        <li>Handled all helpdesk and customer support requests from 300 students, 60 staff and volunteers, and dozens of parents.</li>
-                        <li>Developed and managed technology purchasing systems and refresh cycles for hardware and supplies.</li>
-                        <li>Managed network firewall security and hardware, all IT systems and servers.</li>
-                        <li>Constructed School-wide 3-year technology objectives and planning documents, with yearly revisions, in sync with eRate funding opportunities.</li>
-                        <li>Implemented handbook of policies and procedures for every aspect of the school touched by technology or the IT department.</li>
-                        <li>Coordinated USAC e-Rate bids, contracts, and acquisitions each funding year.</li>
+                    <div class="subheading mb-3">Leadership & Engineering Focus</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cloud Infrastructure & Security (AWS, Terraform, GitHub Actions)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Information Security & Compliance (NIST, SDLC, SAST/DAST)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Team Leadership & Servant Leadership Philosophy
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            DevOps & CI/CD Pipeline Management
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Enterprise Architecture & Integration
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Machine Learning & AI Implementation
+                        </li>
                     </ul>
-                
                 </div>
-            </div>
-        </section>
-        
-        <!-- Volunteering Section-->
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests & Community Involvement</h2>
+                    <p>Beyond technology leadership, I'm deeply committed to community engagement and the arts. I serve on the Board of Trustees for the Detroit Symphony Orchestra, supporting fundraising and community engagement initiatives.</p>
+                    <p>Since 2017, I've been involved with Prideraiser, an international coalition of independent soccer supporters that raises money for local LGBTQ+ charities. Since founding, we've raised over $1.2 million to support these vital organizations.</p>
+                    <p class="mb-0">I enjoy exploring the intersection of emerging technologies, particularly artificial intelligence and machine learning, with practical applications in engineering and business. My passion is to ensure positive, ethical impact on my local communities to ensure everyone is benefiting from technological innovation. Leave the world a better place than you found it. Love wins.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Recognition & Leadership</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            <a href="https://www.sandiego.edu/alumni/communities/alcala-100.php">Alcalá 100</a> - University of San Diego (2026)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Leadership Detroit - Class 44
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-music text-warning"></i></span>
+                            Board of Trustees - Detroit Symphony Orchestra (2023 - Present)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-heart text-warning"></i></span>
+                            Development Committee - Ruth Ellis Center (2022 - 2025)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-church text-warning"></i></span>
+                            Stewardship Committee Chair - Christ Churst Detroit (2025 - present)
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Footer with Visitor Counter-->
+        <footer class="bg-light py-4 text-center">
             <div class="container">
-        <section class="page-section bg-body text-black mb-0" id="volunteering">
-                <!-- Volunteering Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-black">Volunteering</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star" color="black"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Volunteering Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead"><strong>Prideraiser - Co Founder</strong></p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Since 2017, we've been building an international movement within independent soccer supporter groups. This movement has helped raise hundreds of thousands of dollars to support LGBTQ-embracing organizations in local communities.</p></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead"><strong>Board Member</strong></p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Over the last ten years, I have served as a board member at my local church, a local Catholic high school, and a non-profit organization that opened and maintained a dog park. I am a committed volunteer looking for my next board opportunity.</p></div>
-                </div>
-            </div>   
-        </section>
-        <!-- Skills Section-->
-           <div class="container">
-           <section class="page-section bg-primary text-white mb-0" id="skills">
-                   <!-- Resume Section Heading-->
-                   <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
-                   <!-- Icon Divider-->
-                   <div class="divider-custom divider-light">
-                       <div class="divider-custom-line"></div>
-                       <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                       <div class="divider-custom-line"></div>
-                   </div>
-                <!-- Skills Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead"><strong>Current Applications & Software</strong></p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">
-                        Splunk Enterprise<br />
-                        Atlassian Cloud stack (including Jira/JQL)<br />
-                        Slack Admin & App Development<br />
-                        GitHub Actions.<br />
-                        Wordpress & Drupal CMS<br />
-                        Python</p></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead"><strong>AWS Skills & Proficiencies</strong></p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">
-                        Solution Architect Associate (In Progress)<br />
-                        Lambda<br />
-                        EC2<br />
-                        ECS<br />
-                        S3<br />
-                        Route53
-                    </p></div>
-                </div>
-            </div>   
-        </section>
-        <!-- Education Section-->
-            <div class="container">
-        <section class="page-section bg-body text-black mb-0" id="education">
-                <!-- Education Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-black">Education</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star" color="black"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Education Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Master of Arts in Religion - 2019<br  />
-                    Trinity Episcopal School for Ministry</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Major in Church History and Theology. Program capstone thesis: <br />
-                    <em>Towards a Christian Ethical Framework for Artificial Intelligence.</em></p></div>
-                </div><div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Bachelor of Arts in History - 2006<br  />
-                    Hillsdale College</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">    
-                    Minors in Music and English.<br  />
-                    Focus on Voice, Percussion, and Journalism.
-                    </p></div>
-                </div>
-                
-            </div>   
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            Detroit, Michigan
-                            <br />Beaver Island, Michigan
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/mojodean"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/deanpsimmer/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/mojodean"><i class="fab fa-fw fa-github"></i></a>
-                    </div>
-                </div>
+                <p class="text-muted mb-0">Visitors: <span id="visitor-count" class="badge bg-light text-dark">Loading...</span></p>
             </div>
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Dean P. Simmer 2021 - present. <br />Freelance is a free to use, MTI licensed Bootstrap theme created by created by
-                <a href="http://startbootstrap.com">Start Bootstrap</a>.</small></div>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Rocketing Into Leadership</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/rocketship.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">
-                                        <ul>Growing and Scaling as a Technology Leader</ul>
-                                            <li>Have grown from leading a team of 8 people to leading an organization of 30+ people.</li>
-                                            <li>Experienced senior leader in a technology organization, reporting directly to the CTO.</li>
-                                            <li>Mentored and trained multiple team members to become servant-driven team leaders. Led and mentored through the Aspiring Leaders Program, the Experience IT Detroit Program, and the Leader 2 Leader Program.</li>
-                                    </p>  
-                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
-                                        <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Teaching</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/teacher.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Seven Years in Classroom Education at the High-School level.<br  />
-                                    Designed and implemented curriculum in multiple disciplines that met the NIST standards for high school education.<br />
-                                    Partnered with school corporate work partners for summer education programs and 1:1 technology tools deployment for every freshman student.<br />  
-                                    </p>
-                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Lifelong Technologist</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/laptop.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><ul></ul>
-                                        <li>Network & Server Engineer for Clients throughout the United States.</li>
-                                        <li>CMS Implementations and Website Design for Clients using Drupal and Wordpress.</li>
-                                        <li>Advanced Knowledge of Firewalls, QoS, and network security posture management.</li>
-                                        <li>Hands-on engineering and security leader who learned alongside my engineering teams and when possible, completed sprint stories</li>
-                                    </p>
-                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Writing</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/writing.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Merged professional technical and faith interests in my master's program to write about the intersection of religious ethics and artificial intelligence.<br />
-                                    Have written essays at various hubs and online publications over the past two decades. Some of the highlights are on my personal website.</p>
-                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Faith Involvement</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/church.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">With a Masters Degree in Religion, I've focused on being a well-rounded person, caring for my whole self and bringing balance and self-care to my career pursuits. I've been involved in parish leadership, worship services, and multi-faith dialogue programs and societies.<br />
-                                    Served a three year term (2018-2020) on my parish board.
-                                    </p>
-                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hobbies & Volunteering</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/hobbies.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">
-                                        Passionate supporter of Detroit City FC and Norwich City FC.<br />
-                                        Baseball on the radio & a book in my lap is an ideal day.<br />
-                                        Served as a board member or advisory council member in location organizations including a dog park, a non-profit professionals organization, and a private high school.        
-                                    </p>
-                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <!-- Visitor Counter JS-->
