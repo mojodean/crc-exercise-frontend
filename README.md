@@ -1,4 +1,4 @@
-# crc-exercise-frontend
+# Cloud Resume Challenge - Front End
  
 This repository is a setup for the front end of the Cloud Resume Challenge front end using the steps Forrest Brazzeal laid out in the 2021 edition of the Cloud Resume Challenge. I started it, set it aside for a few years, and then decided to pick it back up again when I was working on an academic program that had some AWS/IAC work as a component of it. It made sense to me to push my experiences in that program here and see if I could get this across the finish line.
 
